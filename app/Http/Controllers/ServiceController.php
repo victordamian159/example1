@@ -118,6 +118,6 @@ class ServiceController extends Controller
             'message' => 'Clients fetched successfully',
             'clients' => $clients
         ];
-        return response()->json($data);
+        return response()->json();
     }
 }
